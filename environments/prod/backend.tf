@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "super-viking-ops-tfstate"
     prefix = "env/prod"
   }
 }
