@@ -17,7 +17,7 @@ module "vpc" {
   source  = "terraform-google-modules/network/google"
   version = "3.3.0"
 
-  super-viking-ops   = "${var.project}"
+  project_id   = "${var.project}"
   network_name = "${var.env}"
 
   subnets = [
